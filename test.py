@@ -1,6 +1,6 @@
 from typing import List
 
-
+# Pascal's Triangle Problem
 class Solution:
     def generate(numRows: int) -> List[List[int]]:
         res = [[1]]
