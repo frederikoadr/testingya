@@ -8,5 +8,5 @@ class Solution:
             res += [list(map(lambda x, y: x+y, res[-1] + [0], [0] + res[-1]))]
         return res[:numRows]
 
-test = 999
-print(Solution.generate(test))
+testCase = 5
+print(Solution.generate(testCase))
