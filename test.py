@@ -7,4 +7,6 @@ class Solution:
         for i in range(1, numRows):
             res += [list(map(lambda x, y: x+y, res[-1] + [0], [0] + res[-1]))]
         return res[:numRows]
-print(Solution.generate(2))
+
+test = 999
+print(Solution.generate(test))
